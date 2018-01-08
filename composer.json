@@ -1,5 +1,5 @@
 {
-  "name": "fastgoo/AliyunSms",
+  "name": "fastgoo/aliyun-sms",
   "type": "library",
   "description": "阿里云短信扩展包",
   "keywords": [
@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Aliyun\\Sms": "src/"
+      "Aliyun\\Sms\\": "src/"
     }
   },
   "extra": {
