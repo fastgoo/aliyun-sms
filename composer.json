@@ -20,7 +20,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Aliyun\\Sms": "src/"
+      "Aliyun\\Sms\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
     }
   }
 }
