@@ -30,8 +30,8 @@ class Core
         $params['SignatureVersion'] = '1.0';
         $params['AccessKeyId'] = $this->config['accessKeyId'];
         $params['Timestamp'] = gmdate("Y-m-d\TH:i:s\Z");
-        $params['Format'] = 'JSON-SHA1';
-        ksort($apiParams);
+        $params['Format'] = 'JSON';
+        ksort($params);
 
         $sortedQueryStringTmp = "";
         foreach ($apiParams as $key => $value) {
