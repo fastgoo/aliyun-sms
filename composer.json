@@ -22,10 +22,5 @@
     "psr-4": {
       "Aliyun\\Sms\\": "src/"
     }
-  },
-  "extra": {
-    "branch-alias": {
-      "master": "1.1"
-    }
   }
 }
