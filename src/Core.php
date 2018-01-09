@@ -34,7 +34,7 @@ class Core
         ksort($params);
 
         $sortedQueryStringTmp = "";
-        foreach ($apiParams as $key => $value) {
+        foreach ($params as $key => $value) {
             $sortedQueryStringTmp .= "&" . $this->encode($key) . "=" . $this->encode($value);
         }
 
