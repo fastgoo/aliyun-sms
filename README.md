@@ -68,7 +68,7 @@ $result = $smsApi->getSendDetail($phone,$date,$nums,$page)
 
 ### 备注
 
-* 开源了一个中文技术社区，[https://phalcon.fastgoo.net](https://phalcon.fastgoo.net) , 使用的是phalcon C扩展的高性能框架，简单已操作，API丰富，速度快，项目扩展性强
+* 开源了一个中文技术社区，[https://phalcon.fastgoo.net](https://phalcon.fastgoo.net) , 使用的是phalcon C扩展的高性能框架，简单操作，API丰富，速度快，项目扩展性强
 
 
 
