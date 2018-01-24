@@ -31,6 +31,7 @@ class Api extends Core
      */
     public function setTemplate($param = [], $code = '')
     {
+        $this->config['templateCode'] = $code;
         $code || $this->config['templateCode'] = $this->config['defaultTemplate'];
         $this->config['templateParam'] = $param;
         return $this;
