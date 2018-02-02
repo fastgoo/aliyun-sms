@@ -20,7 +20,7 @@ composer require fastgoo/aliyun-sms
 
 {
   "require": {
-    "fastgoo/aliyun-sms": "1.0"
+    "fastgoo/aliyun-sms": "~1.0"
   }
 }
 
